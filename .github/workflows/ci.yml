@@ -21,6 +21,7 @@ jobs:
       - run: pip install mkdocs-bootswatch
       - run: mkdocs build --config-file mainsite/mkdocs.yml --site-dir ../site
       - run: mkdocs build --config-file mkdocs.yml --site-dir site/en
+      - run: mkdocs build --config-file mkdocs_en_new.yml --site-dir site/en_new
       - run: mkdocs build --config-file docs_da/mkdocs.yml --site-dir ../site/da
       - run: mkdocs build --config-file docs_de/mkdocs.yml --site-dir ../site/de
         
