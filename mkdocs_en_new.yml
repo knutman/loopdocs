@@ -1,5 +1,5 @@
 site_name: Loop dokumentation
-repo_url: https://github.com/LoopKit/LoopKit
+repo_url: https://github.com/LoopKit/loopdocs
 
 markdown_extensions:
     - meta
