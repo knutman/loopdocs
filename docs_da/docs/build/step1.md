@@ -1,39 +1,39 @@
-# Step 1: Compatible Computer
+# Trin 1: Kompatibel Computer
 
-!!!danger "Time Estimate"
-    * 5 minutes, if already have Mojave or Catalina macOS
-    * 30-60 minutes, if need to install macOS updates
+!!!danger "Tidsestimat"
+    * 5 minutter, hvis der allerede er Mojave eller Catalina macOS
+    * 30-60 minutter, hvis det er nødvendigt at installere macOS-opdateringer
 
-!!!info "Summary"
-    * Check your macOS and make sure it is Mojave or Catalina. **If you have the latest iOS version on the iPhone that will be using Loop...then you need Catalina.**
-    * Do not use any of the beta macOS versions. (If you don't know what that means, don't worry...that means you aren't using one.)
-    * If your macOS is not Mojave or Catalina, check to see if you can up update your macOS to one of those.
-    * If you cannot upgrade your existing computer to Mojave or Catalina, you'll need to check into a borrowed computer, patcher tool, or perhaps a new/used computer compatible with Mojave or Catalina.
-    * Check the `Software Update` to see if your computer has any updates available since you first installed it.
+!!!info "Resume"
+    * Tjek din macOS og sørg for at den er Mojave eller Catalina. **Hvis du har den nyeste iOS-version på iPhonen, der vil bruge Loop... så har du brug for Catalina.**
+    * Brug ikke nogen af beta- macOS-versionerne. (Hvis du ikke ved, hvad det betyder, så fortvivl ikke... det betyder, at du ikke bruger ét)
+    * Hvis din macOS ikke er Mojave eller Catalina, skal du kontrollere, om du kan opdatere din macOS til en af dem.
+    * Hvis du ikke kan opgradere din eksisterende computer til Mojave eller Catalina, skal du låne computer, Patcher værktøj, eller måske en ny / brugt computer kompatibel med Mojave eller Catalina.
+    * Tjek `Softwareopdateringen` for at se, om din computer har opdateringer tilgængelige, siden du først installerede den.
 
 !!!warning "FAQs"
-    * **"Can I use a PC or Windows computer? I don't own an Apple computer."** Yes...sort of. Please see [this FAQ about using Virtual Machine](https://loopkit.github.io/loopdocs/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). Windows computers with AMD processors will not be able to successfully build using Virtual Machine, so please make sure you check your processor type before embarking down the Virtual Machine path.
-    * **"What can I do if my computer is too old to be upgraded to Catalina?"** You could take a look at using [Catalina Patcher](http://dosdude1.com/catalina/), but this is totally on your own and not part of these instructions. Just offering the answer to the FAQ...it is up to you to read about the patcher tool and what risks it may involve for you.
-    * **"Can I borrow someone else's Apple computer?"** Yes, please see [this FAQ about borrowing a computer](https://loopkit.github.io/loopdocs/faqs/FAQs/#do-i-need-to-own-my-own-apple-computer) to learn more.
-    * **"How often do I need to use the computer?"** Computer access is only required when you are initially installing the Loop app or updating to a newer Loop release. You do NOT need access to an Apple computer in order to troubleshoot or change Loop settings, such as basal profiles or carb ratios.
+    * **"Kan jeg bruge en pc eller Windows-computer? Jeg ejer ikke en Apple-computer."** Ja...sådan da Se venligst [denne FAQ om brug af Virtual Machine](https://loopkit.github.io/loopdocs/faqs/FAQs/#can-i-use-a-pc-or-windows-computer-to-build). Windows-computere med AMD-processorer vil ikke være i stand til at opbygge med succes ved hjælp af Virtual Machine, så sørg for at tjekke din processor type før du indleder Virtual Machine sti.
+    * **"Hvad kan jeg gøre, hvis min computer er for gammel til at blive opgraderet til Catalina?** Du kan tage et kig på ved hjælp af [Catalina Patcher](http://dosdude1.com/catalina/), men dette er helt på egen hånd og ikke en del af disse instruktioner. Bare tilbyder svaret på FAQ... det er op til dig at læse om patcher værktøj og hvilke risici det kan indebære for dig.
+    * **"Kan jeg låne en andens Apple-computer?"** Ja, se [dette FAQ om at låne en computer](https://loopkit.github.io/loopdocs/faqs/FAQs/#do-i-need-to-own-my-own-apple-computer) for at lære mere.
+    * **"Hvor ofte skal jeg bruge computeren?** Computeradgang er kun påkrævet, når du i første omgang installerer Loop app eller opdaterer til en nyere Loop release. Du behøver IKKE adgang til en Apple-computer for at fejlfinde eller ændre Loop indstillinger, såsom basalrater eller kulhydratsforhold.
 
-## New M1 chip Apple Computers
+## Nye M1 chip Apple-computere
 
-Yes, the newest Apple computers just released in November 2020 are compatible with Loop building. There is ONE little step to be aware of with the new computers, and that is on the Step 7 Install Homebrew page. I've highlighted in a colored boxes on that page the parts that M1 users will need to do. I promise, it's quick and painless.
+Ja, de nyeste Apple-computere, der netop blev udgivet i november 2020, er kompatible med Loop building. Der er ET lille skridt du skal være opmærksom på med de nye computere, og det er på Trin 7 Installer Homebrew side. Jeg har fremhævet i en farvet bokse på denne side de dele, som M1 brugere bliver nødt til at gøre. Jeg lover, det er hurtigt og smertefrit.
 
-And...with that...I'm extremely jealous that you have the new computer. They will make Loop building extremely fast and the time estimates on these docs will be ridiculously slower than you will be experiencing. Lucky duck, I have FOMO.
+Og med det...Jeg er meget jaloux, at du har den nye computer. De vil gøre Loop bygning ekstremt hurtigt, og tidsestimaterne nævnt øverst vil være latterligt langsommere end du vil opleve.
 
 ## Big Sur MacOS
 
-Yes, Big Sur is compatible with Loop building...I'm working on updating this page for that soon. Hang tight.
+Ja, Big Sur er kompatibel med Loop building...Jeg arbejder på at opdatere denne side for det snart. Afvent.
 
-## Catalina vs Mojave, which do you need?
+## Catalina vs Mojave, hvilken har du brug for?
 
-Do you need Catalina or Mojave? The answer will depend on the iOS of your iPhone you'll install Loop onto.
+Har du brug for Catalina eller Mojave? Svaret vil afhænge af iOS på din iPhone, du vil installere Loop på.
 
-**If you have iOS 12.4 to 13.2**, you can use macOS 10.14.4 (Mojave) or 10.15.2 or newer (Catalina).
+**Hvis du har iOS 12.4 til 13.2**, kan du bruge macOS 10.14.4 (Mojave) eller 10.15.2 eller nyere (Catalina).
 
-**If you have iOS 13.4 or newer**, you will not be able to use Mojave and will need Catalina at a minimum. In other words, you'll need macOS 10.15.2 at a minimum to build Loop onto an iPhone running iOS 13.4 or newer.
+**Hvis du har iOS 13.4 eller nyere**, vil du ikke være i stand til at bruge Mojave og vil have brug for Catalina på et minimum. Med andre ord, du har brug for macOS 10.15.2 på et minimum for at bygge Loop på en iPhone, der kører iOS 13.4 eller nyere.
 
 !!!danger "iOS dictates your computer needs" Put simply for Loopers...the more up-to-date you keep your iOS, the more up-to-date your computer and macOS will need to be, too. That's not necessarily a bad thing, and you can't avoid iOS updates forever...you just do need to be aware of how they relate to each other if your computer is "getting on the older side".
 
