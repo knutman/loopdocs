@@ -13,14 +13,14 @@ plugins:
 
 theme:
   name: material
-  custom_dir: ../overrides
+  custom_dir: overrides
   language: en
   features:
       - navigation.tabs
       - toc.integrate
 
 
-pages:
+nav:
 - Home: 'index.md'
 - FAQs:
     - 'Using This Site FAQs': 'faqs/docs-faqs.md'
